@@ -25,7 +25,6 @@ const images = [
 
 export default function ImageSlideshow() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  console.log("bbbb");
 
   useEffect(() => {
     const interval = setInterval(() => {
